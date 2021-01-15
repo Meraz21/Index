@@ -40,7 +40,7 @@ public class TestBase {
 	public static void initialization() {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/chromedriver"); 
+			System.setProperty("webdriver.chrome.driver", "/Users/khosruzzaman/Drivers/chromedriver");
 			driver = new ChromeDriver();
 		}else if(browserName.equalsIgnoreCase("ff")) {
 			System.setProperty("webdriver.gecko.driver", "/Users/khosruzzaman/Drivers/geckodriver");

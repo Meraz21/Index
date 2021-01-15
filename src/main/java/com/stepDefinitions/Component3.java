@@ -15,6 +15,7 @@ import com.utill.TestUtill;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.testng.AssertJUnit;
 
 public class Component3 extends TestBase {
 
@@ -39,7 +40,7 @@ public class Component3 extends TestBase {
 	public void i_am_on_HomePage_where_title_is_React_App() {
 		String pageTitle = driver.getTitle();
 		System.out.println("===== PAGE TITLE : ======== " + pageTitle + " ======================");
-		Assert.assertEquals(pageTitle, "React App", "Page Title Doesnt match");
+		AssertJUnit.assertEquals(pageTitle, "React App", "Page Title Doesnt match");
 	}
 
 	@Test

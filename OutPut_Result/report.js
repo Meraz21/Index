@@ -1,245 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/src/main/java/com/feature/component1.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/src/main/java/com/feature/component3.feature");
 formatter.feature({
   "line": 1,
-  "name": "As a user i am able to see and find the major functions of the TOP part on Index Home",
+  "name": "On the index portal, as a user i can reach and see most of the table data properly placed",
   "description": "",
-  "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home",
+  "id": "on-the-index-portal,-as-a-user-i-can-reach-and-see-most-of-the-table-data-properly-placed",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 3,
-  "name": "Major functionality search from Component_1",
+  "name": "Different sets of table data can retrieve in different way",
   "description": "",
-  "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "I am on HomePage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I clear the set title Box",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "I write a message or can put any value \"\u003csetValue\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "I click on Set Title Button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "I am able to see Entered value displayed on RIGHT side of the title TAG",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "I can close the browser.",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 12,
-  "name": "",
-  "description": "",
-  "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;",
-  "rows": [
-    {
-      "cells": [
-        "setValue"
-      ],
-      "line": 13,
-      "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;;1"
-    },
-    {
-      "cells": [
-        "I Love This Title"
-      ],
-      "line": 14,
-      "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;;2"
-    },
-    {
-      "cells": [
-        "I Have This Title"
-      ],
-      "line": 15,
-      "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 14,
-  "name": "Major functionality search from Component_1",
-  "description": "",
-  "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;;2",
+  "id": "on-the-index-portal,-as-a-user-i-can-reach-and-see-most-of-the-table-data-properly-placed;different-sets-of-table-data-can-retrieve-in-different-way",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
-  "name": "I am on HomePage",
+  "name": "I am on HomePage where title is React App",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "I clear the set title Box",
+  "name": "I Click on Toggle Report Data Button, Hiden Table will Displayed",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I write a message or can put any value \"I Love This Title\"",
-  "matchedColumns": [
-    0
-  ],
+  "name": "I can check total numbers of row and columns",
   "keyword": "Then "
 });
 formatter.step({
   "line": 8,
-  "name": "I click on Set Title Button",
+  "name": "I can check available data in the first row",
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "I am able to see Entered value displayed on RIGHT side of the title TAG",
+  "name": "I can check available data in the first column",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "I can close the browser.",
+  "name": "I can close the browser",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Component1.i_am_on_Index_Home()"
+  "location": "Component3.i_am_on_HomePage_where_title_is_React_App()"
 });
 formatter.result({
-  "duration": 343458166,
-  "error_message": "java.lang.NullPointerException: Cannot invoke \"com.pages.Component_1_Page.titleOfThePage()\" because \"this.com1\" is null\n\tat com.stepDefinitions.Component1.i_am_on_Index_Home(Component1.java:40)\n\tat ✽.Given I am on HomePage(/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/src/main/java/com/feature/component1.feature:5)\n",
+  "duration": 111112667,
+  "error_message": "java.lang.NullPointerException\n\tat com.stepDefinitions.Component3.i_am_on_HomePage_where_title_is_React_App(Component3.java:41)\n\tat ✽.Given I am on HomePage where title is React App(/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/src/main/java/com/feature/component3.feature:5)\n",
   "status": "failed"
 });
 formatter.match({
-  "location": "Component1.i_clear_the_set_title_Box()"
+  "location": "Component3.i_Click_on_Toggle_Report_Data_Button_Hiden_Table_will_Displayed()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "I Love This Title",
-      "offset": 40
-    }
-  ],
-  "location": "Component1.i_write_a_message_or_can_put_any_value()"
+  "location": "Component3.i_can_check_total_numbers_of_row_and_columns()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "Component1.i_click_on_SEt_Title_Button()"
+  "location": "Component3.i_can_check_available_data_in_the_first_row()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "Component1.i_am_able_to_see_Entered_value_displayed_on_RIGHT_side_of_the_title_TAG()"
+  "location": "Component3.i_can_check_available_data_in_the_first_column()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "Component1.i_can_close_the_browser()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 15,
-  "name": "Major functionality search from Component_1",
-  "description": "",
-  "id": "as-a-user-i-am-able-to-see-and-find-the-major-functions-of-the-top-part-on-index-home;major-functionality-search-from-component-1;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "I am on HomePage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I clear the set title Box",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "I write a message or can put any value \"I Have This Title\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "I click on Set Title Button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "I am able to see Entered value displayed on RIGHT side of the title TAG",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "I can close the browser.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Component1.i_am_on_Index_Home()"
-});
-formatter.result({
-  "duration": 572084,
-  "error_message": "java.lang.NullPointerException: Cannot invoke \"com.pages.Component_1_Page.titleOfThePage()\" because \"this.com1\" is null\n\tat com.stepDefinitions.Component1.i_am_on_Index_Home(Component1.java:40)\n\tat ✽.Given I am on HomePage(/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/src/main/java/com/feature/component1.feature:5)\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "Component1.i_clear_the_set_title_Box()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "I Have This Title",
-      "offset": 40
-    }
-  ],
-  "location": "Component1.i_write_a_message_or_can_put_any_value()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "Component1.i_click_on_SEt_Title_Button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "Component1.i_am_able_to_see_Entered_value_displayed_on_RIGHT_side_of_the_title_TAG()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "Component1.i_can_close_the_browser()"
+  "location": "Component3.i_can_close_the_browser()"
 });
 formatter.result({
   "status": "skipped"

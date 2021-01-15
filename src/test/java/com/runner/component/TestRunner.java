@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "/Users/khosruzzaman/FrameWork/AutomationSuitOfIndex/"
-		+ "src/main/java/com/feature/component1.feature", // Path of features file
+		+ "src/main/java/com/feature/component3.feature", // Path of features file
 		glue = { "com.stepDefinitions" }, // Step definition file path
 		plugin = { "pretty", "html:OutPut_Result", }, // Create HTML Report
 		dryRun = false, 	// to find out Un-Defined Steps from features file and test will not execute until status is true
